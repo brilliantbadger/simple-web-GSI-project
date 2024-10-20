@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#map {
+    width: 85%;
+    position: relative;
+}
+#fileUpload {
+    position: absolute;
+    top: 12px;
+    left: 55px;
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#coordInput {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    z-index: 1;
+    border-radius: 5px;
+}

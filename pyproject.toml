@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simple-web-GSI-project"
+version = "0.1.0"
+description = ""
+authors = ["brilliantbadger <chae.samuel13alt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+folium = "^0.17.0"
+rasterio = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
